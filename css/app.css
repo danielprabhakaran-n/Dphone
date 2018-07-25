@@ -5,6 +5,8 @@ body {
     display: flex;
     
 }
+
+/**/
 .left-end {
     margin-left: auto;
 }
@@ -18,15 +20,30 @@ body {
     margin-bottom: auto;
 }
 
+.phone {
+    height: 600px;
+    background: #eee;
+}
+.top-nav {
+    background: #ababab;
+    font-size: 10px;
+    padding: 2px;
+}
+.top-nav div{
+    padding: 0 2px;
+}
 
 @media only screen and (min-width:768px) {
 
     .phone {
         width: 360px;
         margin: auto;
+    }
+    .bottom-box {
+        position: absolute;
+        bottom: 65px;
         background: #333;
     }
-
 
 
 }
