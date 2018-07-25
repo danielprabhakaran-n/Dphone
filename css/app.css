@@ -1,0 +1,32 @@
+body {
+    color: #ffffff;
+}
+.flex {
+    display: flex;
+    
+}
+.left-end {
+    margin-left: auto;
+}
+.right-end {
+    margin-right: auto;
+}
+.top-end {
+    margin-top: auto;
+}
+.bottom-end {
+    margin-bottom: auto;
+}
+
+
+@media only screen and (min-width:768px) {
+
+    .phone {
+        width: 360px;
+        margin: auto;
+        background: #333;
+    }
+
+
+
+}
